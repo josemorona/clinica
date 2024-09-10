@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+}
+
+body {
+  background-image: url("#");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.conteiner {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.conteiner {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  background-color: #fff;
+  width: 100%;
+  padding: 10px;
+}
+.social,
+.logo {
+  width: 30%;
+}
+
+.menu {
+  width: 100%;
+}
+
+.menu nav a {
+  color: #000;
+  text-decoration: none;
+  padding-right: 60px;
+  font-size: 16px;
+  position: relative;
+}
+
+.logo img {
+  width: 110px;
+  cursor: pointer;
+}
+
+.social button {
+  width: 40px;
+  right: 40px;
+  padding: 3px;
+  background-image: linear-gradient(45deg, #4fa8db, #1266d4);
+  border: none;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.social button i {
+  font-size: 20px;
+  color: #000;
+}
+
+nav {
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Titillium Web", sans-serif;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+  padding: 0px, 50px, 10px, 0;
+  font-size: 25pt;
+  position: relative;
+}
+
+nav a::after {
+  content: " ";
+  width: 00%;
+  height: 4px;
+  background-color: #4fa8db;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.5s ease-in-out;
+}
+
+nav a:hover::after {
+  width: 70%;
+}
+
+footer {
+  background-color: #4fa8db;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin-top: 30vh;
+  
+}
+
+footer img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  padding: 1 auto;
+  margin: 0px 10px 10px 10px;
+}
+
+footer h3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 100px;
+}
+
+
+.main{
+  display: flex;
+  justify-items: center;  
+}
+
+.card {
+  margin: 50px;
+  background-color: #fff;
+  width: 400px;
+  height: 600px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.card img{
+  margin: 10px;
+  height: 270px;
+  border-radius: 20px;
+ 
+}
+
+.card h1{
+  margin: 10px 10px 10px 10px;
+  text-align: center;
+  font-size: 20px;
+  
+}
+
+.card p{
+  text-align: justify;
+  margin: 10px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.card button{
+  position: relative;
+  align-tracks: 10vh;
+  justify-content: center;
+  font-size: 12px;
+  background-color: #4fa8db;
+  border-radius: 20px;
+  left: 100px;
+  padding: 5px;
+  width: 200px;
+}
+
+.qsomos {
+  margin: 0;
+  width: 1000px;
+  padding: 100px;
+  height: 600px;
+  margin-left: 150px;
+  margin-top: 100px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 20px;
+  position: absolute;
+  
+}
+
+.qsomos img {
+  height: 500px;
+  width: 400px;
+  border-radius: 20px;
+  position: relative;
+  left: 1000px;
+  margin: 30px;
+  
+}
+.qsomos h1{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.qsomos p{
+  margin-top: 0;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  
+}
+.video{
+  position: relative;
+  left: 1250px;
+  width: 10px;
+  top: 100px;
+}
+
