@@ -10,8 +10,7 @@
 body {
   background-image: url("./img/trabalho.png");
   background-size: cover;
-  background-repeat: no-repeat;
-  
+  background-repeat: no-repeat; 
 }
 
 .conteiner {
