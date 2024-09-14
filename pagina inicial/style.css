@@ -9,31 +9,28 @@
 
 body {
   background-image: url("./img/trabalho.png");
-  background-size: cover;
-  background-repeat: no-repeat; 
+  background-size:cover;
+  background-repeat: no-repeat;
 }
 
 .conteiner {
   max-width: 1280px;
   margin: auto;
-  
 }
 
 form {
   background-color: #ffff;
-  max-width: 500px;
-  height: 600px;
-  padding: 50px;
-  border-radius: 25px;
+  max-width: 600px;
+  height: 700px;
+  padding: 80px;
+  border-radius: 50px;
   margin-top: 120px;
-  margin-left: 200px;
+  margin-left: 1100px;
   margin-bottom: 10%;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-}
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;}
 
 form h1 {
   text-align: center;
-
   font-size: 30px;
   color: rgb(95, 110, 139);
 }
@@ -100,10 +97,7 @@ header {
   width: 100%;
   padding: 10px;
 }
-.social,
-.logo {
-  width: 25%;
-}
+
 
 .menu {
   width: 50%;
@@ -167,14 +161,97 @@ nav a:hover::after {
   width: 70%;
 }
 
+.form-sobre {
+  display: flex; /* Usa Flexbox para alinhamento */
+  justify-content: flex-start; /* Alinha o conteúdo à esquerda */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+  height: 100vh; /* Ajusta a altura da seção para a altura da viewport (opcional) */
+  padding: 20px; /* Adiciona espaçamento interno */
+  box-sizing: border-box; /* Inclui padding e border no cálculo da largura e altura */
+  margin-top: 0%;
+  margin-right: 700px;
+  margin-inline-end: 700px;
+}
+.form-sobre {
+  position: absolute; /* Remove a seção do fluxo normal do documento */
+  top: 300px; /* Ajusta a distância do topo da viewport */
+  left: 0; /* Alinha à esquerda da viewport */
+  right: 0; /* Alinha à direita da viewport */
+  display: flex; /* Usa Flexbox para alinhamento */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: flex-start; /* Alinha o conteúdo ao topo */
+  padding: 20px; /* Adiciona espaçamento interno */
+  box-sizing: border-box; /* Inclui padding e border no cálculo da largura e altura */
+}
+
+.sobre {
+  max-width: 800px; /* Define a largura máxima da caixa de conteúdo */
+  margin: 0 auto; /* Centraliza a div horizontalmente dentro do container */
+}
+
+.sobre h1 {
+  font-size: 2.5rem; /* Ajusta o tamanho da fonte do título principal */
+  margin-bottom: 20px; /* Adiciona espaçamento abaixo do título */
+  color: #fff;
+}
+
+.sobre h3 {
+  font-size: 1.2rem; /* Ajusta o tamanho da fonte do subtítulo */
+  line-height: 1.6; /* Ajusta o espaçamento entre linhas do texto */
+  color: #ffffff; /* Define a cor do texto */
+}
+.relato{
+  position:sticky;
+  justify-content:0px ;
+  height: 100hv;
+  display: flex;
+  padding: 50px;
+}
+
+.relato h1{
+  color:rgb(53, 86, 153);
+  font-size: 50px;
+  margin-top: 60px;
+  margin-right: 10000px;
+  margin-left: 100px;
+  margin: 10px;
+  height: 50px;
+  width: 0px;
+  white-space: nowrap;
+
+}
+
+
+.relato h3{
+  color: #000;
+  max-width: 500px;
+  max-width: fit-content;
+  height: 30px;
+  width: 800px;
+  text-align:unset;
+  white-space: nowrap;
+  margin-top:0cqmin;
+}
+.imagens{
+  margin-top: 400px;
+  margin-right: 250px;
+}
+.imagens ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
 footer {
   background-color: #4fa8db;
-  position: absolute;
-  width: 100%;
+  position:relative;
+  width:auto;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0;
+  top: 100px;
+
 }
 
 footer img{
@@ -192,6 +269,4 @@ footer h3{
   justify-content: center;
   margin: 10px 100px;
 }
-
-
 
